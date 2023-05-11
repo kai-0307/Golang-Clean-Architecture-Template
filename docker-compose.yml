@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  dev-postgres:
+    image: postgres:15.1-alpine
+    ports:
+      - "3000:3000"
+    environment:
+      POSTGRES_DB: user
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: user
+    restart: 
+    networks:
+      - user
+networks:
+  user:
