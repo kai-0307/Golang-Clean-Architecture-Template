@@ -1,1 +1,1 @@
-Golang / Clean Architecture - Template of directory structure 
+Golang / Clean Architecture - template of directory structure 
